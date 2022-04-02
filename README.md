@@ -47,6 +47,7 @@ df2_new=df2[((df2>=q1-1.5*IQR)&(df2<=q3+1.5*IQR)).all(axis=1)]
 df2_new.boxplot()
 df2_new
 ~~~
+
 ## OUTPUT:
 ![output](.//l1.PNG)
 ![output](.//l2.PNG)
